@@ -1,0 +1,139 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.container-fluid{
+    background: linear-gradient(to bottom ,white, rgb(237, 151, 168));
+}
+.color {
+    /* z-index: -1; */
+    /* background-color: green; */
+}
+
+.sock{
+    
+    background-image: url(../img/socks.png);
+    width: 600px;
+    height: 600px;
+    background-size: contain; 
+}
+
+.design{
+    /* background-image: url(../img/design/3.png); */
+    background-size:60%; 
+}
+.img{
+    position: relative;
+    background-size:6rem; 
+    top: 125px;
+    left: 290px;
+    width: 100px;
+    height: 100px;
+    /* background-image: url(../img/customImg/yodu.png); */
+}
+
+.logo{
+    width: 100px;
+    margin-right: 20px;
+}
+
+.nav-item{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar-brand{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.btn-custom{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:  rgb(215, 128, 198);
+    color: white;
+    border: none;
+    padding: 0px;
+    font-size: 26px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin-top: 75%;
+    margin-left: 40%;
+}
+.btn-custom:hover{
+    background-color:  rgb(237, 151, 168);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-custo:active {
+    background-color:  rgb(237, 151, 168);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .knopka{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:  rgb(237, 151, 168);
+    margin: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    margin: 10px;
+    color: white;
+  }
+  .knopka:hover{
+    background-color: rgb(237, 151, 168);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.papaknopki{
+    /* display: flex; */
+    /* justify-content: center; */
+    flex-direction: column;
+    margin-left: 33%;
+}
+
+.knopka:active {
+    background-color:  rgb(237, 151, 168);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+ /* Senik footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(white, rgb(237, 151, 168));
+}
+.title{
+    font-weight: 600;
+    margin-left: 150px;
+}
+.footer_item{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 27px;
+    line-height: 60px;
+}
+.footer_value{
+    margin-right: 150px;
+}
+.footer_name{
+    margin-left: 150px;
+}
+.map{
+    margin-right: 200px;
+}
+.ymap{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.team_name{
+    background-color: rgb(237, 151, 168);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.Eralash{
+    margin: 30px;
+}
